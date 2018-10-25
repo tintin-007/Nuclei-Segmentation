@@ -1,3 +1,5 @@
+
+
 In this project, a deep learning based automated nuclei segmentation method is applied to four types of cancerous cells:
 glioblastoma (GBM), log grade glioma (LGG), non small cell lung cancer (lung), head and neck squamous cell carcinoma cancer (HNSC). The proposed technique is motivated by the need to identify pixels in background (outside all nuclei) and in foreground (inside any nucleus). Thus, the problem is reduced to a binary classification problem for every pixel.
 
@@ -46,7 +48,9 @@ The nuclei segmentation is performed with a Fully Convolutional Neural Network (
 The model is set to work on images of size 256 × 256. In the analysis/downsampling phase, there are two 3 × 3 convolutions before a 2 × 2 max pooling layer which reduces the resolution of the image exactly by half. All the convolutions are followed by a Rectified Linear Unit (ReLU) activation function. The number of filters in each convolutional layer are also doubled after every
 stage. The second phase of the network upsamples the activations using upconvolution which is basically an upsampling operation of size 2 × 2, followed by a 2 × 2 convolution. The last layer in the network is a 1 × 1 convolution layer with sigmoid activation function which maps the signal to a probability map having the same dimensions as the input image.
 
+<p align="center">
 ![alt text](https://github.com/tintin85/Nuclei-Segmentation/blob/master/Architecture%20of%20proposed%20model.png)
+</p> 
 
 ## Result
 
@@ -55,6 +59,8 @@ The mean value of all the Dice Coefficient values for images in heterogeneous te
 **Sample Result**
 
 ![alt text](https://github.com/tintin85/Nuclei-Segmentation/blob/master/result.png)
+
+
 
 
 
