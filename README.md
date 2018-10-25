@@ -4,7 +4,6 @@ glioblastoma (GBM), log grade glioma (LGG), non small cell lung cancer (lung), h
 ## Methodology
 
 The methodology followed in this project can be mainly broken down into seven phases:
-image resizing, binary label production, patch extraction from the training set, data augmentation of the patches, and, lastly, nuclei segmentation.
 
 **1. Test and Training Set Division of Images**
 
