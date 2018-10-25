@@ -1,5 +1,5 @@
 In this project, a deep learning based automated nuclei segmentation method is applied to four types of cancerous cells:
-glioblastoma (GBM), log grade glioma (LGG), non small cell lung cancer (lung), head and neck squamous cell carcinoma cancer (HNSC).
+glioblastoma (GBM), log grade glioma (LGG), non small cell lung cancer (lung), head and neck squamous cell carcinoma cancer (HNSC). The proposed technique is motivated by the need to identify pixels in background (outside all nuclei) and in foreground (inside any nucleus). Thus, the problem is reduced to a binary classification problem for every pixel.
 
 ## Methodology
 
