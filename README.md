@@ -39,7 +39,7 @@ It refers to normalizing the data dimensions so that they are of approximately t
 
 **7. Nuclei Segmentation**
 
-The nuclei segmentation is performed with a Fully Convolutional Neural Network (FCN). Such a network can take an image as input and produces a prediction score matrix of the same size. This prediction score matrix is used to contruct the binary segmentation output. The network architecture used in the proposed approach is inspired by Ronneberger’s U-Net architecture. This FCN captures both local and global features from the input image to construct an accurate segmentation map. Global features indicate the exact location and relative size of the nucleus region, whereas the local features determine the exact boundaries.
+The nuclei segmentation is performed with a Fully Convolutional Neural Network (FCN). Such a network can take an image as input and produces a prediction score matrix of the same size. This prediction score matrix is used to contruct the binary segmentation output. The network architecture used in the proposed approach is inspired by [Ronneberger’s U-Net architecture](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/). This FCN captures both local and global features from the input image to construct an accurate segmentation map. Global features indicate the exact location and relative size of the nucleus region, whereas the local features determine the exact boundaries.
 
 **Network Architecture**
 
