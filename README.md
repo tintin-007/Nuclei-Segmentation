@@ -49,6 +49,31 @@ stage. The second phase of the network upsamples the activations using upconvolu
 
 ![alt text](https://github.com/tintin85/Nuclei-Segmentation/blob/master/Architecture%20of%20proposed%20model.png)
 
+## Result
+
+The Table 4.3.1 below shows the Dice Coefficient values of the proposed method for the heterogeneous training set. The mean value of all the Dice Coefficient values is 0.7900695389088697.
+
+Image Dice Coeffcient Value
+img1  0.866974
+img2  0.80075256
+img3  0.77516643
+img4  0.82509755
+img5  0.80043036
+img6  0.73734305
+img7  0.78873671  
+img8  0.72605565
+
+
+  
+
+
+
+
+
+
+
+
+
 
 
 
