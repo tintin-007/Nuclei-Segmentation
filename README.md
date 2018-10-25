@@ -52,7 +52,9 @@ stage. The second phase of the network upsamples the activations using upconvolu
 
 The mean value of all the Dice Coefficient values for images in heterogeneous test set is 0.7900695389088697, and, for images in homogeneous test set the mean is 0.6844246242424419.
 
-![alt text] (https://github.com/tintin85/Nuclei-Segmentation/blob/master/result.png)
+**Sample Result**
+
+![alt text](https://github.com/tintin85/Nuclei-Segmentation/blob/master/result.png)
 
 
 
