@@ -42,6 +42,11 @@ It refers to normalizing the data dimensions so that they are of approximately t
 
 The nuclei segmentation is performed with a Fully Convolutional Neural Network (FCN). Such a network can take an image as input and produces a prediction score matrix of the same size. This prediction score matrix is used to contruct the binary segmentation output. The network architecture used in the proposed approach is inspired by Ronneberger’s U-Net architecture. This FCN captures both local and global features from the input image to construct an accurate segmentation map. Global features indicate the exact location and relative size of the nucleus region, whereas the local features determine the exact boundaries.
 
+**Network Architecture**
+
+The model is set to work on images of size 256 × 256. In the analysis/downsampling phase, there are two 3 × 3 convolutions before a 2 × 2 max pooling layer which reduces the resolution of the image exactly by half. All the convolutions are followed by a Rectified Linear Unit (ReLU) activation function. The number of filters in each convolutional layer are also doubled after every
+stage. The second phase of the network upsamples the activations using upconvolution which is basically an upsampling operation of size 2 × 2, followed by a 2 × 2 convolution. The last layer in the network is a 1 × 1 convolution layer with sigmoid activation function which maps the signal to a probability map having the same dimensions as the input image.
+
 ![alt text](https://github.com/tintin85/Nuclei-Segmentation/blob/master/Architecture%20of%20proposed%20model.png)
 
 
