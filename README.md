@@ -1,6 +1,10 @@
 In this project, a deep learning based automated nuclei segmentation method is applied to four types of cancerous cells:
 glioblastoma (GBM), log grade glioma (LGG), non small cell lung cancer (lung), head and neck squamous cell carcinoma cancer (HNSC). The proposed technique is motivated by the need to identify pixels in background (outside all nuclei) and in foreground (inside any nucleus). Thus, the problem is reduced to a binary classification problem for every pixel.
 
+## Keywords
+
+Nuclear segmentation, nuclei, convolutional neural networks, deep learning, digital pathology, medical imaging.
+
 ## Methodology
 
 The methodology followed in this project can be mainly broken down into seven phases:
@@ -48,11 +52,15 @@ stage. The second phase of the network upsamples the activations using upconvolu
 
 ![alt text](https://github.com/tintin85/Nuclei-Segmentation/blob/master/Architecture%20of%20proposed%20model.png)
 
+## Experimental Setup
+
+experiments are conducted with Python3 with the help of certain libraries like Keras, OpenCV, NumPy, Matplotlib. Program is written on Jupyter Notebook with Tensorflow back-end on an HP laptop with 64-bit Ubuntu 16.04 LTS operating system, Intel Core i3-5005U CPU @ 2.00GHz × 4, 8 GB of RAM.
+
 ## Result
 
 The mean value of all the Dice Coefficient values for images in heterogeneous test set is 0.7900695389088697, and, for images in homogeneous test set the mean is 0.6844246242424419.
 
-**Sample Result**
+**One Sample Result**
 
 ![alt text](https://github.com/tintin85/Nuclei-Segmentation/blob/master/result.png)
 
