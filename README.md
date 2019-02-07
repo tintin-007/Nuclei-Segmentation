@@ -56,7 +56,7 @@ stage. The second phase of the network upsamples the activations using upconvolu
 
 ## Experimental Setup
 
-experiments are conducted with Python3 with the help of certain libraries like Keras, OpenCV, NumPy, Matplotlib. Program is written on Jupyter Notebook with Tensorflow back-end on an HP laptop with 64-bit Ubuntu 16.04 LTS operating system, Intel Core i3-5005U CPU @ 2.00GHz × 4, 8 GB of RAM.
+Experiments are conducted with Python3 with the help of certain libraries like Keras, OpenCV, NumPy, Matplotlib. Program is written on Jupyter Notebook with Tensorflow back-end on an HP laptop with 64-bit Ubuntu 16.04 LTS operating system, Intel Core i3-5005U CPU @ 2.00GHz × 4, 8 GB of RAM.
 
 ## Result
 
